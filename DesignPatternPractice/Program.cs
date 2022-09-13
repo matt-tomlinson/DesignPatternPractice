@@ -1,5 +1,6 @@
 ﻿using DesignPatternPractice;
 using DesignPatternPractice.Abstract_Factory;
+using DesignPatternPractice.Builder;
 
 //https://www.dofactory.com/net/design-patterns
 bool exit = false;
@@ -7,7 +8,7 @@ bool exit = false;
 while (!exit) {
 	Console.Clear();
 
-	DesignPattern currentDesignPattern = new AbstractFactory();
+	DesignPattern currentDesignPattern = new Builder();
 	currentDesignPattern.Run();
 
 	try {
