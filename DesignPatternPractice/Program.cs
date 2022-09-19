@@ -2,13 +2,15 @@
 using DesignPatternPractice.Abstract_Factory;
 using DesignPatternPractice.Builder;
 using DesignPatternPractice.Factory_Method;
+using DesignPatternPractice.Prototype;
 
 //https://www.dofactory.com/net/design-patterns
 
 List<object> patterns = new List<object>() { 
 	new AbstractFactory(),
 	new Builder(),
-	new FactoryMethod()
+	new FactoryMethod(),
+	new Prototype()
 };
 
 while (true) {
